@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  color: #404040;
+  // color: #404040;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 h1 + p {
-  color: #f18119;
+  color: #fff;
   font-weight: 700;
   font-size: 1.3125rem;
   text-transform: uppercase;
@@ -33,7 +33,7 @@ h2 {
 }
 
 h2 + p {
-  color: #f18119;
+  // color: #f18119;
   font-weight: 700;
   margin-top: 0;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ h2 + p {
 .top-text {
   font-size: 0.625rem;
   font-weight: 700;
-  color: #f18119;
+  color: #fff;
   text-transform: uppercase;
   order: -1;
 }
@@ -50,6 +50,20 @@ h2 + p {
 .fine-print {
   font-size: 0.625rem;
   letter-spacing: 1px;
+}
+
+.logo {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 7px #000;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.intro h1 {
+  font-weight: 700;
 }
 
 strong {
@@ -76,15 +90,22 @@ strong {
   padding: 2em 1em;
 }
 
+.intro > *,
+.main-content > * {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* MEDIA QUERY */
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   body {
     font-size: 1.125rem;
     display: flex;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
 
   h2,
