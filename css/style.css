@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  // color: #404040;
   text-align: center;
 }
 
@@ -33,7 +32,6 @@ h2 {
 }
 
 h2 + p {
-  // color: #f18119;
   font-weight: 700;
   margin-top: 0;
   text-transform: uppercase;
@@ -41,10 +39,13 @@ h2 + p {
 
 .top-text {
   font-size: 0.625rem;
+  margin: 0;
+  padding-top: 2px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   order: -1;
+  border-top: 5px solid #ff0000;
 }
 
 .fine-print {
@@ -73,7 +74,7 @@ strong {
 /* INTRODUCTION SECTION */
 
 .intro {
-  background-image: url(../img/dark-ribs.jpg);
+  background-image: url(../img/tech-blue.jpg);
   background-size: cover;
   background-color: #404040;
   background-position: center;
@@ -96,6 +97,8 @@ strong {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* FORM */
 
 /* MEDIA QUERY */
 @media (min-width: 600px) {
